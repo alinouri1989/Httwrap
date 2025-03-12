@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
+﻿using Httwrap.Interface;
 using System.Text;
-using Httwrap.Interface;
 
 namespace Httwrap
 {

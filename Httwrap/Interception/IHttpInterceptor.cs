@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-
-namespace Httwrap.Interception
+﻿namespace Httwrap.Interception
 {
     public interface IHttpInterceptor
     {

@@ -1,6 +1,5 @@
-﻿using System.Net;
-using System.Net.Http;
-using Httwrap.Interface;
+﻿using Httwrap.Interface;
+using System.Net;
 
 namespace Httwrap
 {

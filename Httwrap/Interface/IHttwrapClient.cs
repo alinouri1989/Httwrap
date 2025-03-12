@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Threading.Tasks;
 using Httwrap.Interception;
+using System.Net;
 
 namespace Httwrap.Interface
 {
@@ -10,7 +7,7 @@ namespace Httwrap.Interface
     {
         Task<IHttwrapResponse> GetAsync(string path, Action<HttpStatusCode, string> errorHandler = null,
             Dictionary<string, string> customHeaders = null, TimeSpan? requestTimeout = null);
-        
+
         IHttwrapResponse Get(string path, object payload, Action<HttpStatusCode, string> errorHandler = null,
             Dictionary<string, string> customHeaders = null, TimeSpan? requestTimeout = null);
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Httwrap
+﻿namespace Httwrap
 {
     public static class Check
     {

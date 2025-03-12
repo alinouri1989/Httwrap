@@ -1,4 +1,3 @@
-using System.Net.Http;
 using Httwrap.Auth;
 using Httwrap.Interface;
 using Httwrap.Serialization;

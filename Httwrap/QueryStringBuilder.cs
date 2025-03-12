@@ -1,13 +1,10 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 
 namespace Httwrap
 {
-    internal class QueryStringBuilder : IQueryStringBuilder
+    public class QueryStringBuilder : IQueryStringBuilder
     {
         public string BuildFrom<T>(T payload, string separator = ",")
         {

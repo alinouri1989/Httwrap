@@ -1,5 +1,4 @@
-﻿using System.Net.Http;
-using Httwrap.Auth;
+﻿using Httwrap.Auth;
 
 namespace Httwrap.Interface
 {

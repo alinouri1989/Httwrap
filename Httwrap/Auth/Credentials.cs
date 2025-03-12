@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-
-namespace Httwrap.Auth
+﻿namespace Httwrap.Auth
 {
     public abstract class Credentials
     {

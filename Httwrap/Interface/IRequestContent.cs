@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-
-namespace Httwrap
+﻿namespace Httwrap
 {
     internal interface IRequestContent
     {
